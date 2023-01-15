@@ -1,4 +1,4 @@
-# HightlightSearch
+# HightlightSearch in Angular 14
 
 to run and test this example 
 1. git clone 
