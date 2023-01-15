@@ -1,1 +1,10 @@
-<p>home works!</p>
+<label>
+  <input (input)="search($event)" type="search" placeholder="search..." >
+</label>
+
+<div>
+  <div *ngFor="let a of myArr">
+    <span style="margin: 12px;" [innerHtml]="a.name | highlightSearch: inputText"></span> <br>
+    <span style="margin: 12px;" [innerHtml]="getString(a.age) | highlightSearch: inputText"></span>
+  </div>
+</div>
