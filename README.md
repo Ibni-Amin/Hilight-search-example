@@ -1,1 +1,1 @@
-# Hilight-search-example
+# Highlight-search-example
